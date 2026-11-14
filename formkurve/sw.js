@@ -1,4 +1,4 @@
-const CACHE = 'formkurve-v3';
+const CACHE = 'formkurve-v4';
 const FILES = ['./', 'index.html', 'preact.umd.js', 'hooks.umd.js', 'viz.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png', 'icons/apple-touch-icon.png'];
 self.addEventListener('install', e => {

@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formkurve. Training, Essen und Bewegung an einem Ort</title>
+<meta name="description" content="Formkurve plant dein Krafttraining, zählt dein Essen mit und zeigt dir in klaren Kurven, ob du stärker wirst. Kostenlos, ohne Anmeldung, direkt auf deinem Handy.">
+<meta name="theme-color" content="#000000">
+<meta name="color-scheme" content="dark">
+<meta property="og:title" content="Formkurve">
+<meta property="og:description" content="Training, Essen und Bewegung an einem Ort. Kostenlos und ohne Anmeldung.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://kutscher0711.github.io/Claudes-Repository/formkurve/icons/icon-512.png">
+<link rel="icon" href="../formkurve/icons/icon-192.png">
+<link rel="apple-touch-icon" href="../formkurve/icons/apple-touch-icon.png">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#000000;color:#FFFFFF;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text',system-ui,'Segoe UI',Roboto,'Helvetica Neue',sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:#FF8A5C}a:hover{color:#FFB199}
+a:focus-visible{outline:2px solid #FFFFFF;outline-offset:4px;border-radius:8px}
+.navl{color:#C7C7CC;text-decoration:none}.navl:hover{color:#FFFFFF}
+.cta{transition:transform .16s cubic-bezier(.23,1,.32,1),box-shadow .16s cubic-bezier(.23,1,.32,1)}
+.cta:active{transform:scale(.97)}
+@media (hover:hover){.cta:hover{transform:translateY(-2px);box-shadow:0 14px 40px rgba(255,90,60,.45)}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.cta{transition:none}}
+</style>
+</head>
+<body>
+<div style="background: #000000; color: #FFFFFF; overflow: hidden; line-height: 1.5">
+
+<header style="padding: 18px clamp(20px, 5vw, 80px); border-bottom: 1px solid #1C1C1E">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px">
+<a href="#start" class="navl" style="display: flex; align-items: center; gap: 12px; min-height: 44px">
+<svg aria-hidden="true" width="36" height="36" viewBox="0 0 512 512" style="border-radius: 9px; border: 1px solid #38383A; flex: none"><rect width="512" height="512" fill="#0B0B0C"></rect><polyline points="92,348 195,288 265,318 420,152" fill="none" stroke="#FF7A1F" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"></polyline></svg>
+<span style="font-size: 20px; font-weight: 700; letter-spacing: -0.01em; color: #FFFFFF">Formkurve</span>
+</a>
+<nav aria-label="Hauptnavigation" style="display: flex; flex-wrap: wrap; align-items: center; gap: 4px 28px; font-size: 16px">
+<a class="navl" href="#training" style="display: inline-flex; align-items: center; min-height: 44px">Training</a>
+<a class="navl" href="#essen" style="display: inline-flex; align-items: center; min-height: 44px">Essen</a>
+<a class="navl" href="#verlauf" style="display: inline-flex; align-items: center; min-height: 44px">Verlauf</a>
+<a class="navl" href="#installieren" style="display: inline-flex; align-items: center; min-height: 44px">Installieren</a>
+</nav>
+</div>
+</header>
+
+<section id="start" style="position: relative; padding: 72px clamp(20px, 5vw, 80px) 88px">
+<svg aria-hidden="true" viewBox="0 0 1440 400" preserveAspectRatio="none" style="position: absolute; left: 0; bottom: 0; width: 100%; height: 62%; max-height: 420px; z-index: 0">
+<defs><linearGradient id="heroKurve" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF7A1F" stop-opacity="0.25"></stop><stop offset="0.45" stop-color="#FF7A1F"></stop><stop offset="1" stop-color="#FF2D55"></stop></linearGradient></defs>
+<polyline points="-20,384 430,340 720,250 880,292 1470,16" fill="none" stroke="url(#heroKurve)" stroke-width="26" stroke-opacity="0.16" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"></polyline>
+<polyline points="-20,384 430,340 720,250 880,292 1470,16" fill="none" stroke="url(#heroKurve)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"></polyline>
+</svg>
+<div style="position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 56px 64px">
+<div style="flex: 1 1 500px; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 24px">
+<p style="margin: 0; font-size: 15px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #FF8A5C">Fitness App für dein Handy</p>
+<h1 style="margin: 0; font-size: clamp(42px, 6.2vw, 88px); line-height: 1.02; font-weight: 800; letter-spacing: -0.035em; text-wrap: balance">Training, Essen und Bewegung <span style="background: linear-gradient(100deg, #FF7A1F, #FF2D55); -webkit-background-clip: text; background-clip: text; color: transparent">an einem Ort.</span></h1>
+<p style="margin: 0; max-width: 560px; font-size: clamp(18px, 1.5vw, 21px); line-height: 1.5; color: #C7C7CC; text-wrap: pretty">Formkurve plant dein Krafttraining, zählt dein Essen mit und zeigt dir in klaren Kurven, ob du stärker wirst. Kostenlos, ohne Anmeldung, direkt auf deinem Handy.</p>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px 24px; margin-top: 8px">
+<a class="cta" href="../formkurve/" style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 60px; padding: 0 32px; border-radius: 999px; background: linear-gradient(135deg, #FF7A1F, #FF2D55); color: #160400; font-size: 19px; font-weight: 700; text-decoration: none">Formkurve öffnen
+<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg>
+</a>
+<a href="#installieren" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 17px; font-weight: 600">So kommt sie auf dein Handy</a>
+</div>
+<p style="margin: 0; font-size: 15px; color: #98989F">Öffnet direkt im Browser. Kein App Store nötig.</p>
+</div>
+
+<div aria-hidden="true" style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; align-items: center; gap: 16px">
+<div style="width: 304px; max-width: 100%; padding: 10px; border-radius: 48px; background: #0B0B0C; border: 1px solid #38383A; box-shadow: 0 40px 120px rgba(0, 0, 0, .9), 0 0 90px rgba(255, 90, 60, .22)">
+<div style="border-radius: 38px; background: #000000; padding: 26px 14px 12px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; flex-direction: column; gap: 2px; padding: 0 6px">
+<span style="font-size: 12px; font-weight: 600; color: #98989F">Montag</span>
+<span style="font-size: 30px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1">Heute</span>
+</div>
+<div style="border-radius: 24px; background: #1C1C1E; padding: 16px; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #FF7A52">Training heute</span>
+<span style="font-size: 22px; font-weight: 800; letter-spacing: -0.01em">Push A</span>
+<span style="font-size: 13px; color: #98989F">6 Übungen, etwa 60 Minuten</span>
+</div>
+<div style="display: flex; align-items: center; justify-content: center; height: 46px; border-radius: 16px; background: linear-gradient(135deg, #FF7A1F, #FF2D55); color: #160400; font-size: 15px; font-weight: 700">Training starten</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<div style="border-radius: 20px; background: #1C1C1E; padding: 14px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #30D158">Essen</span>
+<span style="font-size: 20px; font-weight: 800; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">1.640</span>
+<span style="font-size: 11px; color: #98989F">von 2.300 kcal</span>
+<div style="height: 6px; border-radius: 3px; background: #2C2C2E"><div style="width: 71%; height: 6px; border-radius: 3px; background: linear-gradient(90deg, #5FE38A, #30D158)"></div></div>
+</div>
+<div style="border-radius: 20px; background: #1C1C1E; padding: 14px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #BF7AFF">Cardio</span>
+<span style="font-size: 20px; font-weight: 800; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">45 min</span>
+<span style="font-size: 11px; color: #98989F">von 90 diese Woche</span>
+<div style="height: 6px; border-radius: 3px; background: #2C2C2E"><div style="width: 50%; height: 6px; border-radius: 3px; background: linear-gradient(90deg, #DA8FFF, #9B4DFF)"></div></div>
+</div>
+</div>
+<div style="border-radius: 20px; background: #1C1C1E; padding: 14px 14px 10px; display: flex; flex-direction: column; gap: 6px">
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 8px">
+<span style="font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #FFB800">Kraftkurve</span>
+<span style="font-size: 11px; color: #98989F">Bankdrücken</span>
+</div>
+<svg viewBox="0 0 240 64" style="width: 100%; height: 64px; display: block">
+<defs><linearGradient id="miniKurve" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFD60A"></stop><stop offset="1" stop-color="#FF9F0A"></stop></linearGradient></defs>
+<polyline points="4,54 40,48 76,50 112,38 148,34 184,37 236,12" fill="none" stroke="url(#miniKurve)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></polyline>
+<circle cx="236" cy="12" r="4" fill="#FF9F0A"></circle>
+</svg>
+</div>
+<div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 2px; padding: 8px 6px; border-radius: 22px; background: rgba(36, 36, 38, .82); border: 1px solid rgba(255, 255, 255, .13); font-size: 10px; font-weight: 600; text-align: center; color: #98989F">
+<span style="color: #FF7A52">Heute</span><span>Training</span><span>Essen</span><span>Verlauf</span><span>Mehr</span>
+</div>
+</div>
+</div>
+<span style="font-size: 13px; color: #98989F">Beispielansicht mit Beispieldaten</span>
+</div>
+</div>
+</section>
+
+<section aria-label="Das Wichtigste in Kürze" style="padding: 0 clamp(20px, 5vw, 80px)">
+<div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 1px; background: #2C2C2E; border: 1px solid #2C2C2E; border-radius: 24px; overflow: hidden">
+<div style="background: #0B0B0C; padding: 28px 24px; display: flex; flex-direction: column; gap: 10px">
+<svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FF8A5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12V4h8l10 10-8 8z"></path><circle cx="7.5" cy="8.5" r="1.5"></circle></svg>
+<strong style="font-size: 19px; font-weight: 700">Kostenlos</strong>
+<span style="font-size: 16px; color: #98989F">Kein Abo, keine Werbung.</span>
+</div>
+<div style="background: #0B0B0C; padding: 28px 24px; display: flex; flex-direction: column; gap: 10px">
+<svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FF8A5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c0-4 4-6 8-6s8 2 8 6"></path></svg>
+<strong style="font-size: 19px; font-weight: 700">Ohne Anmeldung</strong>
+<span style="font-size: 16px; color: #98989F">Öffnen, ein paar Fragen beantworten, loslegen.</span>
+</div>
+<div style="background: #0B0B0C; padding: 28px 24px; display: flex; flex-direction: column; gap: 10px">
+<svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FF8A5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>
+<strong style="font-size: 19px; font-weight: 700">Deine Daten bleiben bei dir</strong>
+<span style="font-size: 16px; color: #98989F">Gespeichert nur auf deinem Gerät.</span>
+</div>
+<div style="background: #0B0B0C; padding: 28px 24px; display: flex; flex-direction: column; gap: 10px">
+<svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FF8A5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9a15 15 0 0 1 20 0"></path><path d="M5.5 12.5a10 10 0 0 1 13 0"></path><path d="M9 16a5 5 0 0 1 6 0"></path><circle cx="12" cy="19.5" r="1"></circle><path d="M4 3l16 19"></path></svg>
+<strong style="font-size: 19px; font-weight: 700">Läuft ohne Netz</strong>
+<span style="font-size: 16px; color: #98989F">Einmal geladen, auch im Keller Gym.</span>
+</div>
+</div>
+</section>
+
+<section id="training" style="padding: 112px clamp(20px, 5vw, 80px) 72px">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 48px 80px">
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #FF7A52">Training</p>
+<h2 style="margin: 0; font-size: clamp(32px, 3.6vw, 52px); line-height: 1.08; font-weight: 800; letter-spacing: -0.025em; text-wrap: balance">Ein Plan, der zu deinen Tagen passt.</h2>
+<p style="margin: 0; font-size: 19px; color: #C7C7CC; text-wrap: pretty">Du sagst, an welchen Tagen du trainierst. Formkurve wählt den passenden Split, von Ganzkörper bis Push, Pull, Beine, und führt dich Satz für Satz durch die Einheit.</p>
+<ul style="margin: 4px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px; font-size: 17px">
+<li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF7A52" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex: none; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Nach jedem Satz läuft die Pause mit und meldet sich mit einem Ton.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF7A52" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex: none; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Vorschläge nur für Gewichte, die es an deinem Gerät wirklich gibt.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FF7A52" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex: none; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Jede Übung mit Anleitung und Visualisierung. Tauschen geht jederzeit.</span></li>
+</ul>
+</div>
+<div aria-hidden="true" style="flex: 1 1 420px; min-width: 0">
+<div style="border-radius: 32px; background: #1C1C1E; border: 1px solid #2C2C2E; padding: clamp(20px, 3vw, 32px); display: flex; flex-direction: column; gap: 22px; box-shadow: 0 0 120px rgba(255, 90, 60, .12)">
+<div style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px">
+<span style="font-size: 24px; font-weight: 800; letter-spacing: -0.01em">Bankdrücken</span>
+<span style="font-size: 15px; font-weight: 600; color: #98989F">Satz 2 von 3</span>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px">
+<div style="border-radius: 20px; background: #2C2C2E; padding: 18px; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 13px; font-weight: 600; color: #C7C7CC">Gewicht</span>
+<span style="font-size: clamp(34px, 4vw, 48px); line-height: 1.1; font-weight: 800; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">62 <span style="font-size: 18px; color: #C7C7CC">kg</span></span>
+</div>
+<div style="border-radius: 20px; background: #2C2C2E; padding: 18px; display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 13px; font-weight: 600; color: #C7C7CC">Wiederholungen</span>
+<span style="font-size: clamp(34px, 4vw, 48px); line-height: 1.1; font-weight: 800; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">8</span>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 15px"><span style="color: #C7C7CC">Satz 1</span><span style="font-weight: 600">60 kg mal 8</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#30D158" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></div>
+<div style="height: 1px; background: #38383A"></div>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 15px"><span style="color: #C7C7CC">Pause</span><span style="font-weight: 600">noch 54 s von 90 s</span></div>
+<div style="height: 8px; border-radius: 4px; background: #2C2C2E"><div style="width: 40%; height: 8px; border-radius: 4px; background: linear-gradient(90deg, #FF7A1F, #FF2D55)"></div></div>
+</div>
+<div style="display: flex; align-items: center; justify-content: center; height: 56px; border-radius: 18px; background: linear-gradient(135deg, #FF7A1F, #FF2D55); color: #160400; font-size: 17px; font-weight: 700">Satz eintragen</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="essen" style="padding: 72px clamp(20px, 5vw, 80px)">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: row-reverse; flex-wrap: wrap; align-items: center; gap: 48px 80px">
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #30D158">Essen</p>
+<h2 style="margin: 0; font-size: clamp(32px, 3.6vw, 52px); line-height: 1.08; font-weight: 800; letter-spacing: -0.025em; text-wrap: balance">Essen mitzählen, ohne dass es nervt.</h2>
+<p style="margin: 0; font-size: 19px; color: #C7C7CC; text-wrap: pretty">Formkurve berechnet dein Tagesziel aus deinen Körperdaten und deinem Ziel. Du trägst ein, was du isst, und siehst sofort, was heute noch offen ist.</p>
+<ul style="margin: 4px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px; font-size: 17px">
+<li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#30D158" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex: none; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Kalorien im Blick, Makros freiwillig.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#30D158" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex: none; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Der Wochencheck schlägt ein neues Tagesziel vor, wenn dein Gewicht anders läuft als geplant.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#30D158" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex: none; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Mit dem KI Foto Scan reicht ein Bild vom Teller oder von der Nährwerttabelle.</span></li>
+</ul>
+</div>
+<div aria-hidden="true" style="flex: 1 1 420px; min-width: 0">
+<div style="border-radius: 32px; background: #1C1C1E; border: 1px solid #2C2C2E; padding: clamp(20px, 3vw, 32px); display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 28px 36px; box-shadow: 0 0 120px rgba(48, 209, 88, .10)">
+<div style="display: grid; place-items: center; flex: none">
+<svg width="184" height="184" viewBox="0 0 184 184" style="grid-area: 1 / 1; transform: rotate(-90deg)">
+<defs><linearGradient id="essenRing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5FE38A"></stop><stop offset="1" stop-color="#30D158"></stop></linearGradient></defs>
+<circle cx="92" cy="92" r="76" fill="none" stroke="#2C2C2E" stroke-width="16"></circle>
+<circle cx="92" cy="92" r="76" fill="none" stroke="url(#essenRing)" stroke-width="16" stroke-linecap="round" stroke-dasharray="339 478"></circle>
+</svg>
+<div style="grid-area: 1 / 1; display: flex; flex-direction: column; align-items: center; gap: 0">
+<span style="font-size: 40px; line-height: 1.05; font-weight: 800; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">660</span>
+<span style="font-size: 14px; color: #C7C7CC">kcal übrig</span>
+</div>
+</div>
+<div style="flex: 1 1 200px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="display: flex; justify-content: space-between; gap: 12px; font-size: 15px"><span style="font-weight: 600">Eiweiß</span><span style="color: #C7C7CC">112 von 150 g</span></div>
+<div style="height: 8px; border-radius: 4px; background: #2C2C2E"><div style="width: 75%; height: 8px; border-radius: 4px; background: #64D2FF"></div></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="display: flex; justify-content: space-between; gap: 12px; font-size: 15px"><span style="font-weight: 600">Kohlenhydrate</span><span style="color: #C7C7CC">170 von 260 g</span></div>
+<div style="height: 8px; border-radius: 4px; background: #2C2C2E"><div style="width: 65%; height: 8px; border-radius: 4px; background: #FF9F0A"></div></div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="display: flex; justify-content: space-between; gap: 12px; font-size: 15px"><span style="font-weight: 600">Fett</span><span style="color: #C7C7CC">52 von 75 g</span></div>
+<div style="height: 8px; border-radius: 4px; background: #2C2C2E"><div style="width: 69%; height: 8px; border-radius: 4px; background: #FF375F"></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="verlauf" style="padding: 72px clamp(20px, 5vw, 80px)">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 48px 80px">
+<div style="flex: 1 1 440px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #FFB800">Verlauf</p>
+<h2 style="margin: 0; font-size: clamp(32px, 3.6vw, 52px); line-height: 1.08; font-weight: 800; letter-spacing: -0.025em; text-wrap: balance">Sieh, ob du wirklich stärker wirst.</h2>
+<p style="margin: 0; font-size: 19px; color: #C7C7CC; text-wrap: pretty">Aus deinem besten Satz je Training schätzt Formkurve dein Maximum für eine Wiederholung. Daraus entsteht die Kurve, die der App ihren Namen gibt.</p>
+<ul style="margin: 4px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px; font-size: 17px">
+<li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFB800" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex: none; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Kraftkurven für deine wichtigsten Übungen.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFB800" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex: none; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Beim Körpergewicht zählt der Trend, nicht der einzelne Tag.</span></li>
+<li style="display: flex; gap: 12px; align-items: flex-start"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFB800" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="flex: none; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Sätze pro Woche, Kalorien der letzten 7 Tage und Schritte auf einen Blick.</span></li>
+</ul>
+</div>
+<div aria-hidden="true" style="flex: 1 1 420px; min-width: 0">
+<div style="border-radius: 32px; background: #1C1C1E; border: 1px solid #2C2C2E; padding: clamp(20px, 3vw, 32px); display: flex; flex-direction: column; gap: 18px; box-shadow: 0 0 120px rgba(255, 184, 0, .10)">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 8px 16px">
+<div style="display: flex; flex-direction: column; gap: 2px">
+<span style="font-size: 15px; font-weight: 600; color: #C7C7CC">Kniebeuge, geschätztes Maximum</span>
+<span style="font-size: 44px; line-height: 1.05; font-weight: 800; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">104 <span style="font-size: 18px; color: #C7C7CC">kg</span></span>
+</div>
+<span style="font-size: 15px; font-weight: 600; color: #FFB800">14 kg mehr als vor 12 Wochen</span>
+</div>
+<svg viewBox="0 0 480 200" style="width: 100%; height: auto; display: block">
+<defs>
+<linearGradient id="kraftLinie" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFD60A"></stop><stop offset="1" stop-color="#FF9F0A"></stop></linearGradient>
+<linearGradient id="kraftFlaeche" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFB800" stop-opacity="0.28"></stop><stop offset="1" stop-color="#FFB800" stop-opacity="0"></stop></linearGradient>
+</defs>
+<line x1="8" y1="50" x2="472" y2="50" stroke="#2C2C2E" stroke-width="1"></line>
+<line x1="8" y1="110" x2="472" y2="110" stroke="#2C2C2E" stroke-width="1"></line>
+<line x1="8" y1="170" x2="472" y2="170" stroke="#2C2C2E" stroke-width="1"></line>
+<polygon points="12,162 54,150 96,154 138,132 180,126 222,134 264,108 306,100 348,106 390,78 432,66 468,40 468,190 12,190" fill="url(#kraftFlaeche)"></polygon>
+<polyline points="12,162 54,150 96,154 138,132 180,126 222,134 264,108 306,100 348,106 390,78 432,66 468,40" fill="none" stroke="url(#kraftLinie)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></polyline>
+<circle cx="468" cy="40" r="7" fill="#FF9F0A" stroke="#1C1C1E" stroke-width="3"></circle>
+</svg>
+<div style="display: flex; justify-content: space-between; gap: 12px; font-size: 14px; color: #98989F"><span>vor 12 Wochen</span><span>heute</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="mehrTitel" style="padding: 72px clamp(20px, 5vw, 80px)">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<h2 id="mehrTitel" style="margin: 0; max-width: 760px; font-size: clamp(32px, 3.6vw, 52px); line-height: 1.08; font-weight: 800; letter-spacing: -0.025em; text-wrap: balance">Und alles, was sonst noch zur Form gehört.</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 20px">
+<article style="border-radius: 28px; background: #1C1C1E; border: 1px solid #2C2C2E; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#3EA6FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2"></circle><path d="M4 9.5h16"></path><path d="M12 9.5v6"></path><path d="M12 15.5l-4 6"></path><path d="M12 15.5l4 6"></path></svg>
+<p style="margin: 0; font-size: 14px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #3EA6FF">Mobility</p>
+<h3 style="margin: 0; font-size: 24px; line-height: 1.2; font-weight: 800; letter-spacing: -0.01em">Beweglich bleiben</h3>
+<p style="margin: 0; font-size: 17px; color: #C7C7CC; text-wrap: pretty">Fertige Routinen zum Aufwärmen vor dem Training und für die Beweglichkeit an freien Tagen.</p>
+</article>
+<article style="border-radius: 28px; background: #1C1C1E; border: 1px solid #2C2C2E; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#BF7AFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h4l3-7 4 14 3-7h6"></path></svg>
+<p style="margin: 0; font-size: 14px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #BF7AFF">Cardio</p>
+<h3 style="margin: 0; font-size: 24px; line-height: 1.2; font-weight: 800; letter-spacing: -0.01em">Ausdauer zählt mit</h3>
+<p style="margin: 0; font-size: 17px; color: #C7C7CC; text-wrap: pretty">Trag deine Cardio Minuten und Schritte ein und sieh, wie nah du deinem Wochenziel bist.</p>
+</article>
+<article style="border-radius: 28px; background: #1C1C1E; border: 1px solid #2C2C2E; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#A08CFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"></path><path d="M8.5 9.5h7"></path><path d="M8.5 12.5h4"></path></svg>
+<p style="margin: 0; font-size: 14px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #A08CFF">KI Coach</p>
+<h3 style="margin: 0; font-size: 24px; line-height: 1.2; font-weight: 800; letter-spacing: -0.01em">Ein Coach, der deine Zahlen kennt</h3>
+<p style="margin: 0; font-size: 17px; color: #C7C7CC; text-wrap: pretty">Er kennt deinen Plan, deine Trainings der letzten Wochen, dein Essen und dein Gewicht. Frag ihn zum Beispiel, was du heute noch essen sollst, um deine Makros zu treffen.</p>
+<p style="margin: 0; font-size: 15px; color: #98989F">Läuft mit deinem eigenen Claude API Schlüssel.</p>
+</article>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="fragenTitel" style="padding: 72px clamp(20px, 5vw, 80px)">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<h2 id="fragenTitel" style="margin: 0; font-size: clamp(32px, 3.6vw, 52px); line-height: 1.08; font-weight: 800; letter-spacing: -0.025em">Drei ehrliche Antworten.</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 32px 48px">
+<div style="display: flex; flex-direction: column; gap: 12px; border-top: 2px solid #FF5A3C; padding-top: 20px">
+<h3 style="margin: 0; font-size: 22px; line-height: 1.25; font-weight: 700">Was kostet Formkurve?</h3>
+<p style="margin: 0; font-size: 17px; color: #C7C7CC; text-wrap: pretty">Nichts. Kein Abo, keine Werbung, keine gesperrten Funktionen. Nur für Coach und Foto Scan brauchst du einen eigenen Claude API Schlüssel, dessen Nutzung du selbst bezahlst.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px; border-top: 2px solid #FF5A3C; padding-top: 20px">
+<h3 style="margin: 0; font-size: 22px; line-height: 1.25; font-weight: 700">Wo liegen meine Daten?</h3>
+<p style="margin: 0; font-size: 17px; color: #C7C7CC; text-wrap: pretty">Profil, Plan, Trainings und Ernährungstagebuch liegen nur auf deinem Gerät. Eine Sicherung erstellst du selbst und spielst sie bei Bedarf wieder ein. Nutzt du Coach oder Foto Scan, gehen die dafür nötigen Angaben an Claude.</p>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px; border-top: 2px solid #FF5A3C; padding-top: 20px">
+<h3 style="margin: 0; font-size: 22px; line-height: 1.25; font-weight: 700">Brauche ich die KI?</h3>
+<p style="margin: 0; font-size: 17px; color: #C7C7CC; text-wrap: pretty">Nein. Ohne KI erstellt Formkurve einen Standardplan mit deinem Split. Training, Essen, Mobility, Cardio und Verlauf funktionieren komplett ohne.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="installieren" style="padding: 72px clamp(20px, 5vw, 80px)">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 760px">
+<p style="margin: 0; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #FF7A52">Installieren</p>
+<h2 style="margin: 0; font-size: clamp(32px, 3.6vw, 52px); line-height: 1.08; font-weight: 800; letter-spacing: -0.025em; text-wrap: balance">In einer Minute auf deinem Home Bildschirm.</h2>
+<p style="margin: 0; font-size: 19px; color: #C7C7CC; text-wrap: pretty">Formkurve ist eine Web App. Du öffnest sie im Browser und legst sie wie jede andere App auf dein Handy.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(340px, 100%), 1fr)); gap: 20px">
+<div style="border-radius: 28px; background: #1C1C1E; border: 1px solid #2C2C2E; padding: 28px; display: flex; flex-direction: column; gap: 20px">
+<h3 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.01em">iPhone</h3>
+<ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 16px; font-size: 17px">
+<li style="display: flex; gap: 14px; align-items: center"><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 18px; background: #2C2C2E; display: flex; align-items: center; justify-content: center; font-weight: 700; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">1</span><span>Formkurve in Safari öffnen.</span></li>
+<li style="display: flex; gap: 14px; align-items: center"><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 18px; background: #2C2C2E; display: flex; align-items: center; justify-content: center; font-weight: 700; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">2</span><span>Auf Teilen tippen.</span></li>
+<li style="display: flex; gap: 14px; align-items: center"><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 18px; background: #2C2C2E; display: flex; align-items: center; justify-content: center; font-weight: 700; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">3</span><span>Zum Home Bildschirm wählen.</span></li>
+</ol>
+</div>
+<div style="border-radius: 28px; background: #1C1C1E; border: 1px solid #2C2C2E; padding: 28px; display: flex; flex-direction: column; gap: 20px">
+<h3 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.01em">Android</h3>
+<ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 16px; font-size: 17px">
+<li style="display: flex; gap: 14px; align-items: center"><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 18px; background: #2C2C2E; display: flex; align-items: center; justify-content: center; font-weight: 700; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">1</span><span>Formkurve in Chrome öffnen.</span></li>
+<li style="display: flex; gap: 14px; align-items: center"><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 18px; background: #2C2C2E; display: flex; align-items: center; justify-content: center; font-weight: 700; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">2</span><span>Das Menü oben rechts öffnen.</span></li>
+<li style="display: flex; gap: 14px; align-items: center"><span aria-hidden="true" style="flex: none; width: 36px; height: 36px; border-radius: 18px; background: #2C2C2E; display: flex; align-items: center; justify-content: center; font-weight: 700; font-family: ui-rounded, 'SF Pro Rounded', -apple-system, system-ui, sans-serif">3</span><span>App installieren oder Zur Startseite hinzufügen wählen.</span></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="schlussTitel" style="position: relative; padding: 96px clamp(20px, 5vw, 80px) 112px">
+<div style="max-width: 1200px; margin: 0 auto; border-radius: 40px; background: #0B0B0C; border: 1px solid #2C2C2E; padding: clamp(40px, 6vw, 88px) clamp(24px, 5vw, 72px); display: flex; flex-direction: column; align-items: center; gap: 28px; text-align: center; box-shadow: 0 0 160px rgba(255, 90, 60, .14)">
+<svg aria-hidden="true" width="72" height="72" viewBox="0 0 512 512" style="border-radius: 18px; border: 1px solid #38383A"><rect width="512" height="512" fill="#0B0B0C"></rect><polyline points="92,348 195,288 265,318 420,152" fill="none" stroke="#FF7A1F" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"></polyline></svg>
+<h2 id="schlussTitel" style="margin: 0; max-width: 820px; font-size: clamp(34px, 4.6vw, 64px); line-height: 1.05; font-weight: 800; letter-spacing: -0.03em; text-wrap: balance">Fang heute an. Die Kurve kommt mit jedem Training.</h2>
+<a class="cta" href="../formkurve/" style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 60px; padding: 0 32px; border-radius: 999px; background: linear-gradient(135deg, #FF7A1F, #FF2D55); color: #160400; font-size: 19px; font-weight: 700; text-decoration: none">Formkurve öffnen
+<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg>
+</a>
+<p style="margin: 0; font-size: 16px; color: #98989F">Kostenlos und ohne Anmeldung.</p>
+</div>
+</section>
+
+<footer style="padding: 32px clamp(20px, 5vw, 80px) 48px; border-top: 1px solid #1C1C1E">
+<div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 40px; font-size: 15px; color: #98989F">
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 17px; font-weight: 700; color: #FFFFFF">Formkurve</span>
+<span>Training, Essen und Bewegung an einem Ort. Ab 16 Jahren.</span>
+</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
